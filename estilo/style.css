@@ -11,7 +11,7 @@ body{
     font-family: var(--fontepadrão);
 }
 
-img .main{
+img{
     max-width: 100%;
     display: block;
 }
