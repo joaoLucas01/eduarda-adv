@@ -1,0 +1,162 @@
+@charset "utf-8";
+
+:root{
+    --cor01:#63766F;
+    --cor02:#F2A4F5;
+
+    --fontepadrão: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: var(--fontepadrão);
+}
+
+header{
+    background-color: var(--cor01);
+    margin-top: -20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding: 15px;
+    padding-top: 40px;
+    text-align: center;    
+} 
+
+header > h1{
+    color: white;
+}
+
+header > p{
+    color: white;
+} 
+
+header strong{
+    color: var(--cor02);
+}
+
+nav{
+    background-color: var(--cor01);
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -10px;
+    padding: 15px;
+} 
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    margin: 8px;
+    font-weight: bold;
+}
+
+nav > a:hover{
+    color: var(--cor01);
+    background-color: white;
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+
+nav > a:active{
+    color: var(--cor02);
+    background-color: white;
+    border-radius: 5px;
+}
+
+main > h2{
+    display: block;
+    background-image: linear-gradient(90deg, var(--cor02), white);
+    margin-left: -10px;
+    margin-top: 0px;
+    padding-left: 10px;
+}
+
+main > a{
+    text-decoration: none;
+    color: black;
+}
+
+main > a:hover{
+    color: var(--cor02);
+    text-decoration: underline;
+}
+
+main > a:active{
+    color: var(--cor01);
+    text-decoration: underline;
+}
+
+
+
+footer.home{
+    background-color: #63766f8a;
+    margin: -8px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    padding: 16px;
+    color: #fff;
+}
+
+footer.bene{
+    background-color: #63766f8a;
+    margin: -8px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    padding: 16px;
+    color: #fff;
+}
+
+footer.cont{
+    background-color: #63766f8a;
+    margin-right: -8px;
+    margin-left: -8px;
+    margin-top: 77px;
+    margin-bottom: -40px;
+    padding: 16px;
+    color: #fff;
+}
+
+footer div{
+    display: inline-block;
+    border-color: #63766F;
+    border-style: solid;
+    width: 100px;
+    height: 200px;
+    padding: 10px;
+}
+
+footer > div > p{
+    display: inline-block;
+    width: 80px;
+}
+
+footer  a{
+    text-decoration: none;
+    color: #d141d6;
+    font-weight: 800;
+    padding: 10px;
+    display: inline-flex ;
+}
+
+footer  a:hover{
+    color: #fff;
+}  
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+
