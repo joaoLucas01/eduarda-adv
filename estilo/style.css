@@ -25,9 +25,9 @@ header > h1{
     color: white;
 }
 
-header > img{
-    width: 1200px;
-    height: 300px;
+header  img{
+    width: 100%;
+    height: 100px;
 }
 
 header > p{
