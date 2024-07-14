@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 :root{
-    --cor01:#63766F;
+    --cor01:#545454;
     --cor02:#F2A4F5;
 
     --fontepadrão: Arial, Helvetica, sans-serif;
@@ -25,7 +25,7 @@ header > h1{
     color: white;
 }
 
-header  img{
+.main{
     width: 100%;
     height: 100px;
 }
