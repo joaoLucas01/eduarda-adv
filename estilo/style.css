@@ -106,8 +106,9 @@ div.video > iframe{
 }
 
 .branca{
-    width: 25%;
-    height: 8%;
+    width: 300px;
+    max-height: 5px;
+    display: block;
 }
 
 footer.home{
