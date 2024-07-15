@@ -2,7 +2,8 @@
 
 :root{
     --cor01:#545454;
-    --cor02:#F2A4F5;
+    --cor02:#ef65f4;
+    --cor03:#ef65f4;
 
     --fontepadrão: Arial, Helvetica, sans-serif;
 }
@@ -17,9 +18,15 @@ header{
     margin-right: -8px;
 }
 
+.prev{
+    width: 30%;
+    display: inline;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.369);
+}
+
 img{
-    width: 40%;
-    height: 25%;
+    width: 300px;
+    min-height: 300px;
     margin: auto;
     display: block;
 }
@@ -62,13 +69,13 @@ main > h2{
     padding-left: 10px;
 }
 
-main > a{
+main > p > a{
     text-decoration: none;
-    color: black;
+    color: var(--cor03);
 }
 
-main > a:hover{
-    color: var(--cor02);
+main > p > a:hover{
+    color: var(--cor01);
     text-decoration: underline;
 }
 
