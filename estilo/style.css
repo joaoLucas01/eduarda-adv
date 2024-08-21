@@ -70,6 +70,7 @@ article h3{
 
 #rede a:hover{
     color:white;
+    transition-duration: .3s;
 }
 
 #rede:hover{
@@ -202,7 +203,7 @@ section > h2{
 
 section > div{
     width:360px;
-    height: 400px;
+    height: 700px;
     display: inline-block;
     background-color: rgba(227, 227, 227, 0.339);
     border-radius: 7px;
@@ -211,6 +212,15 @@ section > div{
     margin: 15px;
     margin-left: 11.5vw;
     margin-right: -3vw;
+}
+
+section img{
+    height: 220px;
+    width: 380px;
+    margin-top: -10px;
+    margin-left: -10px;
+    display: inline-block;
+    border-radius: 7px 7px 0px 0px;
 }
 
 section h3{
