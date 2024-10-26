@@ -10,6 +10,11 @@
     --fontedif: @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 }
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     font-family: var(--fontepadrão);
     background-color: whitesmoke;
@@ -48,9 +53,16 @@ nav > a:active{
 
 header{
     background-color: #545454;
+    width: 100vw;
+    height: 60vh;
     margin-left: -8px;
     margin-right: 0px;
     margin-bottom: -24px;
+}
+
+header img{
+    width: 25vw;
+    height: 50vh;
 }
 
 .serv{
@@ -180,6 +192,13 @@ iframe{
     width: 80%;
 }
 
+div#titulo-video > h2{
+    background-color:#5454546e ;
+    font-size: 2em;
+    padding: 10px;
+    text-align: center;
+}
+
 div.video{
     background-color: #5454546e;
     margin: 0px -8px 35px -20px;
@@ -195,6 +214,8 @@ div.video > iframe{
     width: 90%;
     height: 90%;
 }
+
+
 
 section > h2{
     text-align: center;
