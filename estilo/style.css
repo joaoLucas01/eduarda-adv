@@ -329,6 +329,14 @@ li{
     font-weight: 100;
 }
 
+ol{
+    padding-left: 20px;
+}
+
+ol li{
+    font-size: 1.2em;
+}
+
 li a{
     text-decoration: none;
     color: #000000;
