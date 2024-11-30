@@ -277,7 +277,7 @@ section a:hover{
 .beneficios > h2{
     color:#ffbabc ;
     margin: 30px 0px 20px -4px; 
-    font-size: 2em;
+    font-size: 3em;
     font-weight: 600;
     text-align: center;
 }
@@ -356,7 +356,7 @@ li a{
 
 li a:hover{
     color: #ffbabc;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 img#planejamento{
