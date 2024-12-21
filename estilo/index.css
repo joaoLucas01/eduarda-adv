@@ -90,8 +90,10 @@ h2.atributos{
 }
 
 div.atributos{
-    height: 250px;
-    width: 250px;
+    min-height: 250px;
+    max-height: 500px;
+    min-width: 250px;
+    max-width: 500px;
 
     background-color: white;
     border-radius: 7px;
@@ -106,6 +108,20 @@ div.atributos:hover{
     background-color: var(--cor01);
     color: white;
     transition-duration: .5s;
+}
+
+i.material-icons{
+    display: block;
+    padding: 10px;
+    font-size: 3em;
+    text-align: center;
+}
+
+span.material-symbols-outlined{
+    display: block;
+    padding: 10px;
+    font-size: 3em;
+    text-align: center;
 }
 
 p > strong.atributos{

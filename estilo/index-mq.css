@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@media screen and (min-width:769px)  {
+    div.atributos{
+        height: 400px;
+        width: 400px;
+
+        background-color: white;
+        border-radius: 7px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.369);
+        display: inline-block;
+        padding: 20px;
+        margin-bottom: 10px;
+    }
+
+    p > strong.atributos{
+        text-align: center;
+        font-family: var(--fontedif);
+        margin-top: 5em;
+        font-size: 2em;
+    }
+    
+    p.atributos{
+        font-size: 1.3em;
+        text-align: center;
+        margin-top: 2.5em;
+    }
+}

@@ -11,7 +11,6 @@
 img#prev{
     margin: auto;
     width: 300px;
-    margin: 0px 0px 20px 10px;
     display: block;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.369);
 }
@@ -27,9 +26,9 @@ a.beneficios:hover{
 }
 
 ul.beneficios{
-    list-style-type: none;
+    list-style-type: square;
 }
 
 li{
-    margin-left:20px ;
+    margin-left: 40px;
 }
