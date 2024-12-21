@@ -81,41 +81,41 @@ main > a:active{
     text-decoration: underline;
 }
 
-.atributos > h2{ 
+h2.atributos{ 
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 2.3em;
     font-weight: 200;
-
+    text-align: center;
 }
 
-#atributos{
+div.atributos{
     height: 250px;
     width: 250px;
 
     background-color: white;
     border-radius: 7px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.369);
-    display: inline-block;
+    display: block;
     padding: 20px;
     margin: auto;
     margin-bottom: 10px;
 }
 
-#atributos:hover{
+div.atributos:hover{
     background-color: var(--cor01);
     color: white;
     transition-duration: .5s;
 }
 
-#titulo-atributos{
+p > strong.atributos{
     text-align: center;
     font-family: var(--fontedif);
     margin-top: 5em;
     font-size: 1.2em;
 }
 
-#paragrafo-atributos{
+p.atributos{
     text-align: center;
     margin-top: 2.5em;
 }
@@ -149,30 +149,25 @@ div.video > iframe{
     height: 90%;
 }
 
-
-
-section > h2{
+h2.artigos{
     text-align: center;
     font-size: 2.2em;
     font-weight: 300;
 
 }
 
-section > div{
+div.artigos{
     width:360px;
     height: 700px;
-    display: inline-block;
+    display: block;
     background-color: rgba(227, 227, 227, 0.339);
     border-radius: 7px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.369);
     padding: 10px;
-    margin: 15px;
     margin: auto;
-    margin-left: 7vw;
-    margin-right: 5vw;
 }
 
-section img{
+img.artigos{
     height: 220px;
     width: 380px;
     margin-top: -10px;
@@ -180,26 +175,23 @@ section img{
     display: inline-block;
     border-radius: 7px 7px 0px 0px;
 }
-
-section h3{
+h3.artigos{
     text-align: center;
     font-weight: 300;
     font-size: 1.3em;
 }
-
-section p{
+p.artigos{
     text-align: justify;
     padding: 5px;
 }
 
-section a{
+a.artigos{
     text-decoration: none;
     color: var(--cor01);
     font-size: 1.05em;
     padding: 5px;
     text-transform: uppercase;
 }
-
-section a:hover{
+a.artigos:hover{
     color: #f9b1b2;
 }

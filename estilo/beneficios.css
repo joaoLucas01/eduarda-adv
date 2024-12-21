@@ -16,7 +16,17 @@ img#prev{
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.369);
 }
 
-ul#beneficios{
+a.beneficios{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a.beneficios:hover{
+    color:#0c1088 ;
+    text-decoration: underline;
+}
+
+ul.beneficios{
     list-style-type: none;
 }
 
