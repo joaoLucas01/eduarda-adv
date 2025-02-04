@@ -89,6 +89,12 @@ h2.atributos{
     text-align: center;
 }
 
+div.atributos-geral{
+    display: block;
+    margin: auto;
+    width: 885px;
+}
+
 div.atributos{
     min-height: 250px;
     max-height: 500px;
@@ -165,11 +171,23 @@ div.video > iframe{
     height: 90%;
 }
 
-h2.artigos{
+h2.mapa{
     text-align: center;
     font-size: 2.2em;
     font-weight: 300;
+    margin: 0px 0px 20px 0px;
+}
 
+iframe.mapa{
+    display: block;
+    margin: auto;
+}
+
+h2.artigos{
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 300; 
+    margin: 20px 0px 20px 0px;
 }
 
 div.artigos{
@@ -211,3 +229,4 @@ a.artigos{
 a.artigos:hover{
     color: #f9b1b2;
 }
+

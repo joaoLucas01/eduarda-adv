@@ -84,13 +84,22 @@ footer.home{
     color: #fff;
 }
 
-footer div{
+footer a#instagram div{
     display: inline-block;
-    border-color: #63766F;
-    border-style: solid;
-    width: 100px;
-    height: 200px;
-    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 305px;
+    background-image: url(../imagens/Instagram_icon.png);
+    background-size: contain;
+}
+
+footer a#whatsapp div{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 305px;
+    background-image: url(../imagens/whatsapp2.jpg);
+    background-size: contain;
 }
 
 small{
