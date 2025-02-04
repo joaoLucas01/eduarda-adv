@@ -81,6 +81,10 @@ main > a:active{
     text-decoration: underline;
 }
 
+section.atributos{
+
+}
+
 h2.atributos{ 
     margin-top: 20px;
     margin-bottom: 20px;
@@ -92,14 +96,14 @@ h2.atributos{
 div.atributos-geral{
     display: block;
     margin: auto;
-    width: 885px;
+    width: 98vw;
 }
 
 div.atributos{
     min-height: 250px;
     max-height: 500px;
     min-width: 250px;
-    max-width: 500px;
+    max-width: 400px;
 
     background-color: white;
     border-radius: 7px;
